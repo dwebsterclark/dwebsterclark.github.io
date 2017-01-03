@@ -3,8 +3,35 @@ body {
   font-weight: 300;
   background-image: url(linedpaper.png);
   background-repeat: repeat;
+  background-attachment: scroll;
 }
 #wrapper {
   width: 960px;
   margin: 20px auto 20px auto;
+}
+h1 {
+  color: red;
+}
+h4 {
+  color: purple;
+}
+#summary {
+  color: green;
+}
+.skills-and-hobbies {
+  color: orange;
+}
+.body-text {
+  font-size: 14px;
+  font-family: cursive;
+}
+.bullet-text {
+  font-style: oblique;
+  text-align: left;
+  text-decoration: underline;
+}
+.main-pic {
+  border-color: green;
+  border-style: dashed;
+  border-width: thick;
 }
